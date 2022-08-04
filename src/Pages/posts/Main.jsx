@@ -33,7 +33,7 @@ const Main = () => {
 
 
     return <>
-    <div className="mainBody">
+    <div className="mainBody sm:w-96 md:w-[600px] w-[900px]  flex-row justify-center items-cente m-3">
     {
         post.map((value, index) => {
                   return <Post

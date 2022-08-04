@@ -11,7 +11,7 @@ const Post = (data) => {
 
   return (
     <>
-      <div className='main p-2 px-4'>
+      <div className='main p-2 px-4 border border-black rounded-lg m-4 bg-white'>
 
         <div className='header flex my-2 mx-4 space-x-2 w-full'>
           <AccountCircleIcon />
